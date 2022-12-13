@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author sylla
- *
- */
-module springAnnotation {
-}
