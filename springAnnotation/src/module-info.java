@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author sylla
+ *
+ */
+module springAnnotation {
+}
