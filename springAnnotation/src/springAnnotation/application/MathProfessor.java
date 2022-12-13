@@ -2,7 +2,7 @@ package springAnnotation.application;
 
 import org.springframework.stereotype.Component;
 
-@Component("thatMathProfessor")
+@Component
 public class MathProfessor implements Professor {
 
 	@Override

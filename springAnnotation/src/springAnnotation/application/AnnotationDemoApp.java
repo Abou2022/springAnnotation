@@ -11,7 +11,7 @@ public class AnnotationDemoApp {
 						new ClassPathXmlApplicationContext("applicationContext.xml");
 				
 				//get the bean from spring container
-				Professor theProfessor = context.getBean("thatMathProfessor", Professor.class);
+				Professor theProfessor = context.getBean("mathProfessor", Professor.class);
 				
 				//call a method on the bean
 				System.out.println(theProfessor.getDailyNote());
