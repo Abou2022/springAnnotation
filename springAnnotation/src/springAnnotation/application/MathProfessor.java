@@ -15,9 +15,16 @@ public class MathProfessor implements Professor {
 	}
 	
 	//define a setter method
+	/*
 	@Autowired
 	public void setSchoolAdmin(SchoolAdmin theSchoolAdmin) {
 		System.out.println("... MathProfessor: inside setSchoolAdmin() method");
+		schoolAdmin = theSchoolAdmin;
+	}
+	*/
+	@Autowired
+	public void doSomeCrazyStuff(SchoolAdmin theSchoolAdmin) {
+		System.out.println("... MathProfessor: inside doSomeCrazyStuff() method");
 		schoolAdmin = theSchoolAdmin;
 	}
 	
