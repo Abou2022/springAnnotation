@@ -3,12 +3,12 @@ package springAnnotation.application;
 import org.springframework.stereotype.Component;
 
 @Component
-public class GoodStudent implements SchoolAdmin {
+public class RandonAdmin implements SchoolAdmin {
 
 	@Override
 	public String getStudent() {
-		
-		return "Today is your enrollment day!!";
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
