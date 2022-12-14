@@ -12,7 +12,7 @@ public class MathProfessor implements Professor {
 	//added Constructor method
 	@Autowired
 	public MathProfessor(SchoolAdmin theSchoolAdmin) {
-		this.schoolAdmin = theSchoolAdmin;
+		schoolAdmin = theSchoolAdmin;
 	}
 
 	@Override

@@ -11,7 +11,7 @@ public class EnglishProfessor implements Professor {
 	@Autowired
 	//added constructor method
 	public EnglishProfessor(SchoolAdmin theSchoolAdmin) {
-		this.schoolAdmin = theSchoolAdmin;
+		schoolAdmin = theSchoolAdmin;
 	}
 
 	@Override
