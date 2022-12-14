@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class MathProfessor implements Professor {
 	
 	@Autowired
-	@Qualifier("happySchoolAdmin")
+	@Qualifier("randomSchoolAdmin")
 	private SchoolAdmin schoolAdmin;
 	
 	//define a default constructor
