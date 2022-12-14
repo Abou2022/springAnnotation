@@ -12,15 +12,15 @@ public class AnnotationDemoApp {
 				
 				//get the bean from spring container
 				Professor theProfessor = context.getBean("mathProfessor", Professor.class);
-				Professor theProfessorEnglish = context.getBean("englishProfessor", Professor.class);
+//				Professor theProfessorEnglish = context.getBean("englishProfessor", Professor.class);
 				
 				//call a method on the bean
 				System.out.println(theProfessor.getDailyNote());
-				System.out.println(theProfessorEnglish.getDailyNote());
+//				System.out.println(theProfessorEnglish.getDailyNote());
 				
 				//Call method to call student register day
 				System.out.println(theProfessor.getStudent());
-				System.out.println(theProfessorEnglish.getStudent());
+//				System.out.println(theProfessorEnglish.getStudent());
 				
 				
 				//close the context
